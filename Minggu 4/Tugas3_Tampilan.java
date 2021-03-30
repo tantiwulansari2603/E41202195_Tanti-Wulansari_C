@@ -18,8 +18,8 @@ public class Tugas3_Tampilan {
         Scanner input = new Scanner(System.in);
         System.out.print("Masukkan Banyaknya Data Nilai = ");
         bnykNilai = input.nextInt();
-        double jumlah = 0;
-        double avg;
+        int jumlah = 0;
+        int avg;
         
         int[] array = new int[bnykNilai];
         
