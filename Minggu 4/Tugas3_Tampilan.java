@@ -24,7 +24,7 @@ public class Tugas3_Tampilan {
         int[] array = new int[bnykNilai];
         
             for (int i = 0; i < array.length; i++) {
-                System.out.print("Masukkan Nilai Ke "+ i +" = ");
+                System.out.print("Masukkan Nilai Ke "+ (i+1) +" = ");
                 array[i] = input.nextInt();
             }
             
