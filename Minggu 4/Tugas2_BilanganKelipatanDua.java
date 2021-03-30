@@ -15,12 +15,14 @@ public class Tugas2_BilanganKelipatanDua {
         
         System.out.println("            Do__While          ");
         System.out.println("  Bilangan Kelipatan 2 (1-100) ");
-        System.out.println("===============================\n");
+        System.out.println("================================\n");
+        System.out.print("     ");
         
         do{
             System.out.print(bil + " ");
-            bil += 2;
+            bil *= 2;
         } while ( bil <= 100);
         }
     }
 
+//
