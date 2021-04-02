@@ -15,17 +15,17 @@ public class Tugas2_BilanganKelipatanDua {
         int angka = 2;
         
         System.out.println("            Do__While          ");
-        System.out.println("  Bilangan Perkalian 2 (1-100) ");
+        System.out.println("  Bilangan Perkalian 2 (0-100) ");
         System.out.println("================================");
         System.out.print("     ");
             do{
-                System.out.print(bil + " ");
+                System.out.print(bil + "   ");
                 bil *= 2;
             } while ( bil <= 100);
         
         
         System.out.println("\n   \n         Do__While          ");
-        System.out.println("  Bilangan Kelipatan 2 (1-100) ");
+        System.out.println("  Bilangan Kelipatan 2 (0-100) ");
         System.out.println("================================");
         System.out.print("     ");
             do{
