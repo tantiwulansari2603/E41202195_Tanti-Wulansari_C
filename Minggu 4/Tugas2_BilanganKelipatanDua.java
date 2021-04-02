@@ -12,17 +12,27 @@ package tugas_week4;
 public class Tugas2_BilanganKelipatanDua {
     public static void main(String[] args) {
         int bil = 2;
+        int angka = 2;
         
         System.out.println("            Do__While          ");
-        System.out.println("  Bilangan Kelipatan 2 (1-100) ");
-        System.out.println("================================\n");
+        System.out.println("  Bilangan Perkalian 2 (1-100) ");
+        System.out.println("================================");
         System.out.print("     ");
+            do{
+                System.out.print(bil + " ");
+                bil *= 2;
+            } while ( bil <= 100);
         
-        do{
-            System.out.print(bil + " ");
-            bil *= 2;
-        } while ( bil <= 100);
-        }
+        
+        System.out.println("\n   \n         Do__While          ");
+        System.out.println("  Bilangan Kelipatan 2 (1-100) ");
+        System.out.println("================================");
+        System.out.print("     ");
+            do{
+                System.out.print(angka + " ");
+                angka += 2;
+            } while (angka <= 100);
+            
+                
     }
-
-//
+}
