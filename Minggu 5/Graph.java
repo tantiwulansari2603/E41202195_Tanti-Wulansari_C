@@ -43,7 +43,7 @@ public class Graph {
         int v2;
         
             while (!theQueue.isEmpty()) {
-                int v1 = (int) theQueue.remove();
+                int v1 = (int) theQueue.pop();
                 while ((v2 = getAdjUnivisitedVertex(v1)) != -1) {
                     vertexList[v2].wasVisited =  true;
                     displayVertex(v2);
